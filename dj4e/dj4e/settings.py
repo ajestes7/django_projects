@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'home.apps.HomeConfig',
     'autos.apps.AutosConfig',
+    'cats.apps.CatsConfig',
 ]
 
 MIDDLEWARE = [
@@ -53,7 +54,7 @@ ROOT_URLCONF = 'dj4e.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['/home/ajestes7/django_projects/dj4e/autos/templates/autos'],
+        'DIRS': ['/home/ajestes7/django_projects/dj4e/autos/templates/autos', '/home/ajestes7/django_projects/dj4e/cats/templates/cats'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
