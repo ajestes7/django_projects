@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'social_django',  # Add
     'home.apps.HomeConfig',  # Add - Common folder
     'ads.apps.AdsConfig',  # Add - Common folder
+    'autos.apps.AutosConfig',
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap3'
